@@ -1,6 +1,6 @@
 package com.ciebiada.escapeanalysis.tests;
 
-import com.ciebiada.escapeanalysis.StopWatch;
+import com.ciebiada.StopWatch;
 
 public class Inlined {
 

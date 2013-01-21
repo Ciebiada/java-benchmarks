@@ -1,4 +1,4 @@
-package com.ciebiada.escapeanalysis;
+package com.ciebiada;
 
 public class StopWatch {
 
