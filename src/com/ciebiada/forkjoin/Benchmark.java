@@ -6,9 +6,11 @@ import com.ciebiada.forkjoin.tests.OurQuickSortParallelized;
 
 public class Benchmark {
 
+    private static final int PROBLEM_SIZE = 20000000;
+
     public static void main(String[] args) {
-        new NativeSort(20000000);
-        new OurQuickSort(20000000);
-        new OurQuickSortParallelized(20000000);
+        new NativeSort(PROBLEM_SIZE);
+        new OurQuickSort(PROBLEM_SIZE);
+        new OurQuickSortParallelized(PROBLEM_SIZE);
     }
 }
