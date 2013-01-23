@@ -8,7 +8,7 @@ import java.util.concurrent.RecursiveAction;
 public class OurQuickSortParallelized extends TestCase {
 
     private void parallelQuickSort(float[] numbers) {
-        new ForkJoinPool(8).invoke(new SortAction(numbers, 0, numbers.length - 1));
+        new ForkJoinPool().invoke(new SortAction(numbers, 0, numbers.length - 1));
     }
 
     private class SortAction extends RecursiveAction {
