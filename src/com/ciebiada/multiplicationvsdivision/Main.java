@@ -7,8 +7,8 @@ import com.ciebiada.multiplicationvsdivision.benchmarks.MorePracticalBenchmark;
 public class Main {
 
     public static void main(String[] args) {
-//        new LiteralsBenchmarkOne();
-//        new LiteralsBenchmarkTwo();
+        new LiteralsBenchmarkOne();
+        new LiteralsBenchmarkTwo();
         new MorePracticalBenchmark();
     }
 }
