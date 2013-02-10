@@ -1,9 +1,8 @@
 package com.ciebiada.forkjoin.tests;
 
-import com.ciebiada.StopWatch;
-
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveAction;
+import com.ciebiada.StopWatch;
 
 public class OurQuickSortParallelized extends TestCase {
 
